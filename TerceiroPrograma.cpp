@@ -18,7 +18,7 @@ int main()
     std::cin>>kmf;
     std::cout<<"Insira os litros de gasolina gastos: ";
     std::cin>>litrosg;
-    distancia = kmi - kmf;
+    distancia = kmf - kmi;
     int consumo = (litrosg * 100) / distancia;
     
     std::cout<<"O automovel gastou " <<consumo<< " a cada 100km";
