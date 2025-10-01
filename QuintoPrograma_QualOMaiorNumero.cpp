@@ -21,4 +21,6 @@ int main()
         Maior = n3;
     }
     std::cout << Maior;
+    return 0;
 }
+
