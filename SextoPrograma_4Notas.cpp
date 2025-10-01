@@ -14,4 +14,5 @@ int main()
     std::cin >> ing;
     double media = (mat + fq + ing + pt) / 4;
     std::cout << "A media dos seus testes e:\n" << media;
+    return 0;
 }
