@@ -7,7 +7,7 @@ int main() {
 
 	const float sandes = 1, bolos = 0.8, refrigerante = 1.5, cafe = 0.6;
 	float preco_sandes, preco_bolos, preco_refrigerante, preco_cafe;
-	float sandes_venda, bolos_venda, refrigerante_venda, cafe_venda;
+	int sandes_venda, bolos_venda, refrigerante_venda, cafe_venda;
 
 	std::cout << "Por qual preço vendeu as sandes? \n";
 	std::cin >> preco_sandes;
@@ -43,4 +43,5 @@ int main() {
 
 	return 0;
 }
+
 
