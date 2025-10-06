@@ -9,13 +9,13 @@ int main() {
 	float preco_sandes, preco_bolos, preco_refrigerante, preco_cafe;
 	float sandes_venda, bolos_venda, refrigerante_venda, cafe_venda;
 
-	std::cout << "Por qual preço vendeu as sandes? \n";
+	std::cout << "Por qual preÃ§o vendeu as sandes? \n";
 	std::cin >> preco_sandes;
-	std::cout << "Por qual preço vendeu os bolos? \n";
+	std::cout << "Por qual preÃ§o vendeu os bolos? \n";
 	std::cin >> preco_bolos;
-	std::cout << "Por qual preço vendeu os refrigerantes? \n";
+	std::cout << "Por qual preÃ§o vendeu os refrigerantes? \n";
 	std::cin >> preco_refrigerante;
-	std::cout << "Por qual preço vendeu os cafes? \n";
+	std::cout << "Por qual preÃ§o vendeu os cafes? \n";
 	std::cin >> preco_cafe;
 	
 	
@@ -34,7 +34,7 @@ int main() {
 	system("cls");
 	std::cout << "Lucro de hoje" << std::endl;
 
-	// Lucro com os preços originais
+	// Lucro com os preÃ§os originais
 	//float lucro = (sandes_venda * sandes) + (bolos_venda * bolos) + (refrigerante_venda * refrigerante) + (cafe_venda * cafe);
 	float lucro = ((preco_sandes-sandes) * sandes_venda) + ((preco_cafe - cafe) * cafe_venda) + ((preco_refrigerante - refrigerante) * refrigerante_venda)  
 		+ ((preco_bolos - bolos) * bolos_venda);
