@@ -1,0 +1,53 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36 Edg/141.0.0.0" version="28.2.5">
+  <diagram name="Página-1" id="UupK14f7hbHd6gqpfVzQ">
+    <mxGraphModel dx="1417" dy="776" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="Cx64W5U1aOWfK_Yif2Rq-8" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Cx64W5U1aOWfK_Yif2Rq-2">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="413.9565217391305" y="140" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Cx64W5U1aOWfK_Yif2Rq-2" value="inicio" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="354" y="30" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="Cx64W5U1aOWfK_Yif2Rq-9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" target="Cx64W5U1aOWfK_Yif2Rq-4">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="413.9565217391305" y="200" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Cx64W5U1aOWfK_Yif2Rq-10" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Cx64W5U1aOWfK_Yif2Rq-4" target="Cx64W5U1aOWfK_Yif2Rq-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Cx64W5U1aOWfK_Yif2Rq-4" value="ler preco_sandes, preco_bolos, preco_refrigerante, preco_cafe" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="191" y="250" width="445" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Cx64W5U1aOWfK_Yif2Rq-11" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Cx64W5U1aOWfK_Yif2Rq-5" target="Cx64W5U1aOWfK_Yif2Rq-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Cx64W5U1aOWfK_Yif2Rq-5" value="ler sandes_venda, bolos_venda, refrigerante_venda, cafe_venda&amp;nbsp;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="191" y="360" width="445" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Cx64W5U1aOWfK_Yif2Rq-17" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Cx64W5U1aOWfK_Yif2Rq-6" target="Cx64W5U1aOWfK_Yif2Rq-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Cx64W5U1aOWfK_Yif2Rq-6" value="lucro = (sandes_venda * sandes) + (bolos_venda * bolos) + (refrigerante_venda * refrigerante) + (cafe_venda * cafe)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="140" y="490" width="556" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Cx64W5U1aOWfK_Yif2Rq-7" value="fim" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="342.5" y="710" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="Cx64W5U1aOWfK_Yif2Rq-13" value="const float sandes = 1, bolos = 0.8, refrigerante = 1.5, cafe = 0.6;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="175" y="140" width="486" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Cx64W5U1aOWfK_Yif2Rq-18" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Cx64W5U1aOWfK_Yif2Rq-14" target="Cx64W5U1aOWfK_Yif2Rq-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Cx64W5U1aOWfK_Yif2Rq-14" value="escrever &quot;O lucro foi de: &quot; + lucro + &quot;€&quot;;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="180" y="590" width="445" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

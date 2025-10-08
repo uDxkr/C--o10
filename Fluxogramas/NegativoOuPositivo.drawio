@@ -1,0 +1,90 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36 Edg/140.0.0.0" version="28.2.5">
+  <diagram name="Página-1" id="myD0Efv4EgmYx3YSF8yT">
+    <mxGraphModel dx="1418" dy="786" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="WvcLpOBctguwsFaLKLW5-22" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="WvcLpOBctguwsFaLKLW5-2" target="WvcLpOBctguwsFaLKLW5-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="WvcLpOBctguwsFaLKLW5-2" value="inicio" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="354" y="20" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="WvcLpOBctguwsFaLKLW5-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="WvcLpOBctguwsFaLKLW5-4" target="WvcLpOBctguwsFaLKLW5-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="WvcLpOBctguwsFaLKLW5-4" value="ler numero;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="354" y="120" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="WvcLpOBctguwsFaLKLW5-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="WvcLpOBctguwsFaLKLW5-5" target="WvcLpOBctguwsFaLKLW5-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="WvcLpOBctguwsFaLKLW5-9" value="Nao" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="WvcLpOBctguwsFaLKLW5-8">
+          <mxGeometry x="0.0632" y="-2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WvcLpOBctguwsFaLKLW5-5" value="numero == 0" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="80" y="270" width="220" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="WvcLpOBctguwsFaLKLW5-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="WvcLpOBctguwsFaLKLW5-7" target="WvcLpOBctguwsFaLKLW5-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="WvcLpOBctguwsFaLKLW5-26" value="sim" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="WvcLpOBctguwsFaLKLW5-14">
+          <mxGeometry x="0.0118" y="3" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WvcLpOBctguwsFaLKLW5-16" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="WvcLpOBctguwsFaLKLW5-7" target="WvcLpOBctguwsFaLKLW5-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="WvcLpOBctguwsFaLKLW5-27" value="nao" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="WvcLpOBctguwsFaLKLW5-16">
+          <mxGeometry x="-0.2571" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WvcLpOBctguwsFaLKLW5-7" value="numero &amp;gt; 0" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="370" y="360" width="220" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="WvcLpOBctguwsFaLKLW5-10" value="Fim" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="130" y="570" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="WvcLpOBctguwsFaLKLW5-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.583;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="WvcLpOBctguwsFaLKLW5-5" target="WvcLpOBctguwsFaLKLW5-10">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="190" y="570" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WvcLpOBctguwsFaLKLW5-12" value="sim" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="WvcLpOBctguwsFaLKLW5-11">
+          <mxGeometry x="-0.1379" y="2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WvcLpOBctguwsFaLKLW5-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="WvcLpOBctguwsFaLKLW5-13" target="WvcLpOBctguwsFaLKLW5-4">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1040" y="555" />
+              <mxPoint x="1040" y="180" />
+              <mxPoint x="464" y="180" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WvcLpOBctguwsFaLKLW5-13" value="Escrever&amp;nbsp; &quot;O numero e Postitivo&quot;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="370" y="525" width="220" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="WvcLpOBctguwsFaLKLW5-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.25;entryDx=0;entryDy=0;" edge="1" parent="1" source="WvcLpOBctguwsFaLKLW5-15" target="WvcLpOBctguwsFaLKLW5-4">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="970" y="400" />
+              <mxPoint x="970" y="136" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WvcLpOBctguwsFaLKLW5-15" value="Escrever &quot;O numero e negativo&quot;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="720" y="370" width="190" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
