@@ -20,12 +20,12 @@ int main() {
 		soma += pos[i];
 	}
 
-	cout << "Queres somar os numeros? (s/n) ";
+	cout << "Queres somar os numeros ou contar? (s/c) ";
 	cin >> neg;
 	if(neg == 's') {
 		cout << "A soma é: " << soma << "!";
 	} else {
-		cout << "Os números negativos são: " << times;
+		cout << "Os números negativos contados são: " << times;
 	} 
 
 	return 0;
