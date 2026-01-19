@@ -23,7 +23,7 @@ int main() {
         break; 
       case 'o': cout << 'po';
         break;
-      case 'u': cout << 'po';
+      case 'u': cout << 'pu';
         break; 
     } 
   } 
